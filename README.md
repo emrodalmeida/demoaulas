@@ -7,7 +7,7 @@ Licença: [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.sv
 Clique em um dos botões abaixo para abrir uma das demonstrações contidas neste repositório utilizando o MyBinder ou o Google Colab e executar os notebooks sem necessidade de instalação na sua máquina local.
 
 * Amostragem de sinais (parte 01): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2Famostragem_parte1.ipynb)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/emrodalmeida/demoaulas/blob/main/Geofisica1/amostragem_parte1.ipynb)
+[![Open In Colab](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/amostragem_parte1.ipynb)
 
 
 * Amostragem de sinais (parte 02): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2Famostragem_parte1.ipynb)
