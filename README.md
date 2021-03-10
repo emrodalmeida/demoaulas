@@ -33,7 +33,7 @@ Clique em um dos botões abaixo para abrir uma das demonstrações contidas nest
 
 ---
 
-Caso tenha sugestões de demonstrações, comentários, dúvidas ou encontre bugs nos códigos, por favor entre em contato através do e-mail: emerson.almeida@ufu.br
+Caso tenha sugestões, comentários, dúvidas, encontre bugs nos códigos, por favor deixe um comentário na aba [Issues](https://github.com/emrodalmeida/demoaulas/issues) ou entre em contato através do e-mail: emerson.almeida@ufu.br
 
 
 
