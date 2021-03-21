@@ -21,6 +21,19 @@ Clique em um dos botões abaixo para abrir uma das demonstrações contidas nest
 * Filtragem de sinais: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2Ffiltragem.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/filtragem.ipynb)
 
+* Conceitos relacionados à ambiguidade da modelagem de dados geofísicos:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2Fmodelagem.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/modelagem.ipynb)
+
+* Anomalias de gravidade ao redor do globo terrestre:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2Fanomalia_grav.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/anomalia_grav.ipynb)
+
+* Características do campo geomagnético (calculadas pelo IGRF-13 entre 1900 a 2020):
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2FIGRF.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/IGRF.ipynb)
+
+
 ---
 ### Geofísica 2
 
