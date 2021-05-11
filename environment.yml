@@ -6,3 +6,4 @@ dependencies:
   - scipy==1.5.2
   - matplotlib==3.3.2
   - cartopy==0.18.0
+  - pandas==1.2.3
