@@ -33,11 +33,11 @@ Clique em um dos botões abaixo para abrir uma das demonstrações contidas nest
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2FIGRF.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/IGRF.ipynb)
 
-* Mapa de sismicidade mundial:
+* Mapa de atividade sísmica mundial:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2Fsismos_usgs.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/sismos_usgs.ipynb)
 
-* Mapa de sismicidade do Brasil:
+* Mapa de atividade sísmica do Brasil:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2Fsismos_rsbr.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/sismos_rsbr.ipynb)
 
