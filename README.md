@@ -52,7 +52,7 @@ Clique em um dos botões abaixo para abrir uma das demonstrações contidas nest
 * Sondagem elétrica vertical (parte 02): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fsev_parte2.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica2/sev_parte2.ipynb)
 
-* Anomalias magnéticas para corpos de diferentes geometrias e em diferentes inclinações: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fmagnetometria_parte01.ipynb)
+* Anomalias magnéticas para corpos de diferentes geometrias e em diferentes inclinações de campo geomagnético: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fmagnetometria_parte01.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica2/magnetometria_parte01.ipynb)
 
 * Transformações do campo potencial aplicados a dados gravimétricos: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fgravimetria.ipynb)
@@ -60,6 +60,8 @@ Clique em um dos botões abaixo para abrir uma das demonstrações contidas nest
 
 * Transformações do campo potencial aplicados a dados magnetométricos: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fmagnetometria_parte02.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica2/magnetometria_parte02.ipynb)
+
+* Processamento básico de dados GPR: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fgpr.ipynb)
 
 ---
 
