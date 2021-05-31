@@ -63,6 +63,8 @@ Clique em um dos botões abaixo para abrir uma das demonstrações contidas nest
 
 * Processamento básico de dados GPR: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fgpr.ipynb)
 
+* Análise de velocidades em dados sísmicos de refração e de reflexão: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fsismica_velocidade.ipynb)
+
 ---
 
 Caso tenha sugestões, comentários, dúvidas, encontre bugs nos códigos, por favor deixe um comentário na aba [Issues](https://github.com/emrodalmeida/demoaulas/issues) ou entre em contato através do e-mail: emerson.almeida@ufu.br
