@@ -6,6 +6,9 @@ Este repositório ficará disponível permanentemente para acesso público e not
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
+[![DOI](https://zenodo.org/badge/335374856.svg)](https://zenodo.org/badge/latestdoi/335374856)
+
+
 As demonstrações listadas abaixo são executadas em linguagem Python 3, porém não há necessidade alguma de que você conheça a linguagem para obter e interpretar os resultados. Todos os notebooks apresentam textos explicativos para que você possa desenvolver a demonstração por conta própria, contudo você é livre para entrar em contato a qualquer momento em caso de dúvida.
 
 A execução dos notebooks pode ser realizada de forma remota, sem a necessidade de qualquer tipo de instalação no seu dispositivo local. Clique em um dos botões disponíveis ao lado da descrição da demonstração de seu interesse para abri-la utilizando o [Binder](https://mybinder.org/) ou o [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb) e executar o notebook.
