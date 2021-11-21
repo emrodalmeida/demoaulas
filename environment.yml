@@ -1,4 +1,4 @@
-name: igufu32607
+name: demoaulas
 channels:
   - conda-forge
 dependencies:
