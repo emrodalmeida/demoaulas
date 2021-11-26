@@ -2,10 +2,12 @@ import os
 import numpy as np
 import matplotlib.patches as patches
 import matplotlib.pyplot as plt
+import warnings
 
 from SimPEG import maps
 from SimPEG.electromagnetics.static import resistivity as dc
 from SimPEG.utils import plot_1d_layer_model
+warnings.filterwarnings('ignore')
 
 
 def configura_ponto(A, B, M, N):
@@ -65,7 +67,6 @@ def calcula_ddp_2camadas(esp, res1, res2, coord_ABMN):
     return(ddp_calc)
 
 
-# TODO: remover essa função na versão final
 def calcula_rhoa(A, B, M, N, ddp_calc, corrente=1.0):
     AM = np.abs(M - A)
     AN = np.abs(N - A)
@@ -74,8 +75,7 @@ def calcula_rhoa(A, B, M, N, ddp_calc, corrente=1.0):
     
     k = 2*np.pi / (1/AM - 1/AN -1/BM + 1/BN)
     rho_a_calc = np.round((ddp_calc/corrente) * k, 1)
-    print(rho_a_calc)
-    return None
+    return rho_a_calc
 
 
 def plota_modelo(h1, rho1, rho2, limite_dist, ax=None):
