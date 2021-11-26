@@ -53,17 +53,19 @@ Quer colaborar? Entre em contato através do e-mail emerson.almeida@ufu.br, sua 
 ---
 ### *Geofísica 2*
 
+* **NOVO!** Resistividade aparente em levantamentos geoelétricos: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Frho_aparente.ipynb)
+
 * Sondagem elétrica vertical (parte 01): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fsev_parte1.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica2/sev_parte1.ipynb)
 
 * Sondagem elétrica vertical (parte 02): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fsev_parte2.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica2/sev_parte2.ipynb)
 
-* **NOVO!** Modelagem de Caminhamento Elétrico: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fnotebook_modelagem_ce.ipynb)
+* Modelagem de Caminhamento Elétrico: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fnotebook_modelagem_ce.ipynb)
 
-* **NOVO!** Inversão de Caminhamento Elétrico (dados de exemplo simulados com arranjo dipolo-dipolo): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fnotebook_inversao_ce.ipynb)
+* Inversão de Caminhamento Elétrico (dados de exemplo simulados com arranjo dipolo-dipolo): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fnotebook_inversao_ce.ipynb)
 
-* **NOVO!** Inversão de Caminhamento Elétrico (dados simulados com diferentes arranjos e modelos): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fnotebook_modinv_ce.ipynb)
+* Inversão de Caminhamento Elétrico (dados simulados com diferentes arranjos e modelos): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fnotebook_modinv_ce.ipynb)
 
 * Anomalias magnéticas para corpos de diferentes geometrias e em diferentes inclinações de campo geomagnético: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fmagnetometria_parte01.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica2/magnetometria_parte01.ipynb)
