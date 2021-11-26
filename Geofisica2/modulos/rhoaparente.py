@@ -7,7 +7,19 @@ import warnings
 from SimPEG import maps
 from SimPEG.electromagnetics.static import resistivity as dc
 from SimPEG.utils import plot_1d_layer_model
+
 warnings.filterwarnings('ignore')
+
+FONTE_PEQUENA = 12
+FONTE_MEDIA = 14
+FONTE_GRANDE = 14
+
+plt.rc('font', size=FONTE_PEQUENA)
+plt.rc('axes', titlesize=FONTE_GRANDE)
+plt.rc('axes', labelsize=FONTE_MEDIA)
+plt.rc('legend', fontsize=FONTE_PEQUENA)
+plt.rc('xtick', labelsize=FONTE_PEQUENA)
+plt.rc('ytick', labelsize=FONTE_PEQUENA)
 
 
 def configura_ponto(A, B, M, N):
