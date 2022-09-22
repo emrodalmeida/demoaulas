@@ -3,7 +3,7 @@
 # platform: win-64
 # python==3.8.10
 PyQt5
-# turtle==0.0.1
+turtle==0.0.1
 numpy==1.19.2
 scipy==1.5.2
 matplotlib==3.3.2
