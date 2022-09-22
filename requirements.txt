@@ -7,8 +7,7 @@ turtle==0.0.1
 numpy
 scipy
 matplotlib
-cython>=0.28.5
-geos>=3.3
+geos
 shapely
 pyshp
 cartopy==0.19.0.post1
