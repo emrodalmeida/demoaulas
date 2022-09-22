@@ -154,7 +154,21 @@ def plota_ddp(ddp_calc, ax=None):
     return ax
 
 
-def executa_execicio(A, B, M, N, espessura, rho_baixa, rho_alta):
+def executa_atividade():
+
+    print('\n\nCONFIGURAÇÃO DO MODELO DE 2 CAMADAS:\n')
+    rho_baixa = float(input('\nResistividade real da camada menos resistiva (Ohm.m): '))
+    rho_alta = float(input('\nResistividade real da camada mais resistiva (Ohm.m): '))
+    espessura = float(input('\nProfundidade da interface entre as camadas (m): '))
+
+    print('\n\nCONFIGURAÇÃO DO ARRANJO:\n')
+    A = float(input('\nPosição do eletrodo A (m): '))
+    B = float(input('\nPosição do eletrodo B (m): '))
+    M = float(input('\nPosição do eletrodo M (m): '))
+    N = float(input('\nPosição do eletrodo N (m): '))
+    
+    print('\n\n')
+    
     ponto = configura_ponto(A, B, M, N)
     ddp1 = calcula_ddp_1camada(espessura, rho_baixa, ponto)
     ddp2 = calcula_ddp_1camada(espessura, rho_alta, ponto)
@@ -194,3 +208,4 @@ def executa_execicio(A, B, M, N, espessura, rho_baixa, rho_alta):
     plt.show()
     
     return None
+    
