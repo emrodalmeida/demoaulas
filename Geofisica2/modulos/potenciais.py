@@ -167,10 +167,6 @@ class aquisicao():
         mod:     objeto da classe modelo
         """
                 
-        #self.xx_s = np.linspace(-1000, 1000.0, 40)
-        #self.yy_s = np.linspace(-1000.0, 1000.0, 40)
-        #self.h_s = 0.0
-        
         if xx_s is None:
             self.xx_s = np.linspace(-1000, 1000.0, 40)
         else:
