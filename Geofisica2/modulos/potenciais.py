@@ -11,6 +11,10 @@ from SimPEG import maps
 from SimPEG.potential_fields import magnetics
 from SimPEG import utils, data
 
+from copy import deepcopy
+import fatiando.gravmag.transform as tr
+
+
 class modelo():
     
     """
@@ -149,7 +153,7 @@ class modelo():
         
 class aquisicao():
     
-    def __init__(self, mod, f, inc, dec, componente=['tmi']):
+    def __init__(self, mod, f, inc, dec, componente=['tmi'], xx_s=None, yy_s=None, h_s=None):
     
         """
         Configura os pontos do levantamento no modelo
@@ -163,9 +167,25 @@ class aquisicao():
         mod:     objeto da classe modelo
         """
                 
-        self.xx_s = np.linspace(-1000, 1000.0, 40)
-        self.yy_s = np.linspace(-1000.0, 1000.0, 40)
-        self.h_s = 0.0
+        #self.xx_s = np.linspace(-1000, 1000.0, 40)
+        #self.yy_s = np.linspace(-1000.0, 1000.0, 40)
+        #self.h_s = 0.0
+        
+        if xx_s is None:
+            self.xx_s = np.linspace(-1000, 1000.0, 40)
+        else:
+            self.xx_s = xx_s
+            
+        if yy_s is None:
+            self.yy_s = np.linspace(-1000.0, 1000.0, 40)
+        else:
+            self.yy_s = yy_s
+            
+        if h_s is None:
+            self.h_s = 0.0
+        else:
+            self.h_s = h_s
+        
         self.componente = componente
         
         x, y = np.meshgrid(self.xx_s, self.yy_s)
@@ -310,3 +330,166 @@ def sill(l, h, z, chi, eixo_x=[2000.0, 40.0], eixo_y=[2000.0, 40.0], eixo_z=[400
     modelo_atual.insere_bloco(chi, [(-l/2.0, l/2.0), (-1000.0, 1000.0), (z-h, z)])
     
     return modelo_atual
+
+
+
+def continuacao(survey_in, z):
+    
+    survey_out = deepcopy(survey_in)
+    
+    nx = len(survey_out.xx_s)
+    ny = len(survey_out.yy_s)
+    survey_out.dpred = tr.upcontinue(survey_out.xx_s, survey_out.yy_s, survey_out.dpred, (nx, ny), z)   #.reshape([ny, nx])
+    survey_out.descricao = 'continuação p/ cima em ' + str(z) + ' m'
+    survey_out.unidade = 'nT'
+    
+    return survey_out
+
+
+def derivada_y(survey_in, ordem=1):
+    
+    survey_out = deepcopy(survey_in)
+    
+    nx = len(survey_out.xx_s)
+    ny = len(survey_out.yy_s)
+    survey_out.dpred = tr.derivx(survey_out.xx_s, survey_out.yy_s, survey_out.dpred, (nx, ny), order=ordem)    #.reshape([ny, nx])
+    survey_out.descricao = str(int(ordem)) + 'a Derivada horizontal Y'
+    survey_out.unidade = 'nT/m'
+    
+    return survey_out
+
+
+def derivada_x(survey_in, ordem=1):
+    
+    survey_out = deepcopy(survey_in)
+    
+    nx = len(survey_out.xx_s)
+    ny = len(survey_out.yy_s)
+    survey_out.dpred = tr.derivy(survey_out.xx_s, survey_out.yy_s, survey_out.dpred, (nx, ny), order=ordem)    #.reshape([ny, nx])
+    survey_out.descricao = str(int(ordem)) + 'a Derivada horizontal X'
+    survey_out.unidade = 'nT/m'
+    
+    return survey_out
+
+
+def derivada_z(survey_in, ordem=1):
+    
+    survey_out = deepcopy(survey_in)
+    
+    nx = len(survey_out.xx_s)
+    ny = len(survey_out.yy_s)
+    survey_out.dpred = tr.derivz(survey_out.xx_s, survey_out.yy_s, survey_out.dpred, (nx, ny), order=ordem)    #.reshape([ny, nx])
+    survey_out.descricao = str(int(ordem)) + 'a Derivada vertical'
+    survey_out.unidade = 'nT/m'
+    
+    return survey_out
+
+
+def gradiente_total(survey_in):
+    
+    survey_out = deepcopy(survey_in)
+    
+    nx = len(survey_out.xx_s)
+    ny = len(survey_out.yy_s)
+    survey_out.dpred = tr.tga(survey_out.xx_s, survey_out.yy_s, survey_out.dpred, (nx, ny))    #.reshape([ny, nx])
+    survey_out.descricao = 'Amplitude do gradiente total'
+    survey_out.unidade = 'nT/m'
+    
+    return survey_out
+
+
+def derivada_tilt(survey_in):
+    
+    survey_out = deepcopy(survey_in)
+    
+    nx = len(survey_out.xx_s)
+    ny = len(survey_out.yy_s)
+    survey_out.dpred = tr.tilt(survey_out.xx_s, survey_out.yy_s, survey_out.dpred, (nx, ny))    #.reshape([ny, nx])
+    survey_out.descricao = 'Derivada tilt'
+    survey_out.unidade = 'rad'
+    
+    return survey_out
+
+
+def residual(survey_in_total, survey_in_regional):
+    
+    survey_out = deepcopy(survey_in_total)
+    survey_out.dpred = survey_in_total.dpred - survey_in_regional.dpred
+    survey_out.descricao = 'Campo residual'
+    survey_out.unidade = 'nT'
+    
+    return survey_out
+
+
+def red_polo(survey_in, inc, dec):
+    
+    survey_out = deepcopy(survey_in)
+    
+    nx = len(survey_out.xx_s)
+    ny = len(survey_out.yy_s)
+    
+    sinc, sdec = [inc, dec]   # considera que não há magnetização remanente na fonte da anomalia
+    
+    survey_out.dpred = tr.reduce_to_pole(survey_out.xx_s, survey_out.yy_s, survey_out.dpred, (nx, ny), \
+                                        inc, dec, sinc, sdec)
+    
+    survey_out.descricao = 'Redução ao Polo'
+    survey_out.unidade = 'nT'
+    
+    return survey_out
+
+
+def tdx(survey_in):
+    
+    survey_out = deepcopy(survey_in)
+    
+    nx = len(survey_out.xx_s)
+    ny = len(survey_out.yy_s)
+    
+    xderiv = tr.derivx(survey_out.xx_s, survey_out.yy_s, survey_out.dpred, (nx, ny))
+    yderiv = tr.derivy(survey_out.xx_s, survey_out.yy_s, survey_out.dpred, (nx, ny))
+    zderiv = tr.derivz(survey_out.xx_s, survey_out.yy_s, survey_out.dpred, (nx, ny))
+    horiz_deriv = np.sqrt(xderiv**2 + yderiv**2)
+    
+    survey_out.dpred = np.arctan2(horiz_deriv, np.abs(zderiv))
+    survey_out.descricao = 'Gradiente Horizontal Total (TDX)'
+    survey_out.unidade = 'rad'
+    
+    return survey_out
+
+
+def thdr(survey_in):
+    
+    survey_out = deepcopy(survey_in)
+    
+    nx = len(survey_out.xx_s)
+    ny = len(survey_out.yy_s)
+    
+    xderiv = tr.derivx(survey_out.xx_s, survey_out.yy_s, survey_out.dpred, (nx, ny))
+    yderiv = tr.derivy(survey_out.xx_s, survey_out.yy_s, survey_out.dpred, (nx, ny))
+    survey_out.dpred = np.sqrt(xderiv**2 + yderiv**2)
+    
+    survey_out.descricao = 'Gradiente Horizontal Total da Derivada Tilt (THDR)'
+    survey_out.unidade = 'rad/m'
+    
+    return survey_out
+
+
+def tptdx(survey_in_t, survey_in_tdx):
+    
+    survey_out = deepcopy(survey_in_t)
+    survey_out.dpred = survey_in_t.dpred + survey_in_tdx.dpred
+    survey_out.descricao = 'T + TDX'
+    survey_out.unidade = 'rad'
+    
+    return survey_out
+    
+    
+def tmtdx(survey_in_t, survey_in_tdx):
+    
+    survey_out = deepcopy(survey_in_t)
+    survey_out.dpred = survey_in_t.dpred - survey_in_tdx.dpred
+    survey_out.descricao = 'T - TDX'
+    survey_out.unidade = 'rad'
+    
+    return survey_out
