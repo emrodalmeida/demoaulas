@@ -66,14 +66,14 @@ Quer colaborar? Entre em contato através do e-mail emerson.almeida@ufu.br, sua 
 
 * Inversão de Caminhamento Elétrico (dados simulados com diferentes arranjos e modelos): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica2%252Fnotebook_modinv_ce.ipynb%26branch%3Dmain)
 
-* Transformações do campo potencial aplicados a dados gravimétricos: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fgravimetria.ipynb)
+* Transformações do campo potencial aplicados a dados gravimétricos: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica2%252Fgravimetria.ipynb%26branch%3Dsimpeg17)
 
 * Anomalias magnéticas para corpos de diferentes geometrias e em diferentes inclinações de campo geomagnético: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica2%252Fmagnetometria_parte01.ipynb%26branch%3Dmain)
 
 * Transformações do campo potencial aplicados a dados magnetométricos: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica2%252Fmagnetometria_parte02.ipynb%26branch%3Dmain)
 
-* Processamento básico de dados GPR: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fgpr.ipynb)
+* Processamento básico de dados GPR: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica2%252Fgpr.ipynb%26branch%3Dsimpeg17)
 
-* Análise de velocidades em dados sísmicos de refração e de reflexão: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fsismica_velocidade.ipynb)
+* Análise de velocidades em dados sísmicos de refração e de reflexão: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica2%252Fsismica_velocidade.ipynb%26branch%3Dsimpeg17)
 
 ---
