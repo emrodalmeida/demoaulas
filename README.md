@@ -60,7 +60,7 @@ Quer colaborar? Entre em contato através do e-mail emerson.almeida@ufu.br, sua 
 
 * Sondagem elétrica vertical (parte 02): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica2%252Fsev_parte2.ipynb%26branch%3Dmain)
 
-* Modelagem de Caminhamento Elétrico: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica2%2Fnotebook_modelagem_ce.ipynbhttps://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica2%252Fnotebook_modelagem_ce.ipynb%26branch%3Dmain)
+* Modelagem de Caminhamento Elétrico: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica2%252Fnotebook_modelagem_ce.ipynb%26branch%3Dmain)
 
 * Inversão de Caminhamento Elétrico (dados de exemplo simulados com arranjo dipolo-dipolo): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica2%252Fnotebook_inversao_ce.ipynb%26branch%3Dmain)
 
