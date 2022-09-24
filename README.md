@@ -1,6 +1,6 @@
 # Seja bem-vindo(a)!
 
-Estes notebooks foram criados para as disciplinas de Geofísica I e Geofísica II do curso de [graduação em Geologia da Universidade Federal de Uberlândia](http://www.ig.ufu.br/geologia) em atendimento à necessidade de realização de aulas práticas em formato remoto.
+Estes notebooks foram criados para as disciplinas de Geofísica I e Geofísica II do curso de [graduação em Geologia da Universidade Federal de Uberlândia](www.ig.ufu.br/graduacao/geologia) em atendimento à necessidade de realização de aulas práticas em formato remoto.
 
 Este repositório ficará disponível permanentemente para acesso público e notebooks com novas demonstrações deverão ser disponibilizados futuramente. O uso e a reprodução deste material é livre para uso educacional desde que citada a fonte e em observação aos termos da licença GPL v3.0.
 
@@ -13,7 +13,7 @@ As demonstrações listadas abaixo são executadas em linguagem Python 3, porém
 
 A execução dos notebooks pode ser realizada de forma remota, sem a necessidade de qualquer tipo de instalação no seu dispositivo local. Clique em um dos botões disponíveis ao lado da descrição da demonstração de seu interesse para abri-la utilizando o [Binder](https://mybinder.org/) ou o [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb) e executar o notebook.
 
-Caso tenha sugestões, comentários, dúvidas ou encontre bugs nos códigos, por favor deixe um comentário na aba [Issues](https://github.com/emrodalmeida/demoaulas/issues).
+Caso tenha sugestões, comentários, dúvidas ou encontre bugs nos códigos por favor deixe um comentário na aba [Issues](https://github.com/emrodalmeida/demoaulas/issues).
 
 Quer colaborar? Entre em contato através do e-mail emerson.almeida@ufu.br, sua colaboração será bem-vinda!
 
@@ -21,33 +21,33 @@ Quer colaborar? Entre em contato através do e-mail emerson.almeida@ufu.br, sua 
 ---
 ### *Geofísica 1*
 
-* Amostragem de sinais (parte 01):  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2Famostragem_parte1.ipynb)
+* Amostragem de sinais (parte 01):  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252Famostragem_parte1.ipynb%26branch%3Dsimpeg17)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/amostragem_parte1.ipynb)
 
-* Amostragem de sinais (parte 02): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2Famostragem_parte2.ipynb)
+* Amostragem de sinais (parte 02): [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252Famostragem_parte2.ipynb%26branch%3Dsimpeg17)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/amostragem_parte2.ipynb)
 
-* Série de Fourier:  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2Fserie_fourier.ipynb)
+* Série de Fourier:  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252Fserie_fourier.ipynb%26branch%3Dsimpeg17)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/serie_fourier.ipynb)
 
-* Filtragem de sinais: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2Ffiltragem.ipynb)
+* Filtragem de sinais: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252Ffiltragem.ipynb%26branch%3Dsimpeg17)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/filtragem.ipynb)
 
-* Conceitos relacionados à ambiguidade da modelagem de dados geofísicos:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2Fmodelagem.ipynb)
+* Ambiguidade da modelagem em dados geofísicos:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252Fmodelagem.ipynb%26branch%3Dsimpeg17)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/modelagem.ipynb)
 
 * Anomalias de gravidade ao redor do globo terrestre:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2Fanomalia_grav.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252Fanomalia_grav.ipynb%26branch%3Dsimpeg17)
 
 * Características do campo geomagnético (calculadas pelo IGRF-13 entre 1900 a 2020):
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2FIGRF.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252FIGRF.ipynb%26branch%3Dsimpeg17)
 
 * Mapa de atividade sísmica mundial:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2Fsismos_usgs.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252Fsismos_usgs.ipynb%26branch%3Dsimpeg17)
 
 * Mapa de atividade sísmica do Brasil:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/demoaulas/HEAD?filepath=Geofisica1%2Fsismos_rsbr.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252Fsismos_rsbr.ipynb%26branch%3Dsimpeg17)
 
 
 ---
