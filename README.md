@@ -1,21 +1,15 @@
-# Seja bem-vindo(a)!
+## Seja bem-vindo(a)!
 
-Estes notebooks foram criados para as disciplinas de Geofísica I e Geofísica II do curso de [graduação em Geologia da Universidade Federal de Uberlândia](www.ig.ufu.br/graduacao/geologia) em atendimento à necessidade de realização de aulas práticas em formato remoto.
-
-Este repositório ficará disponível permanentemente para acesso público e notebooks com novas demonstrações deverão ser disponibilizados futuramente. O uso e a reprodução deste material é livre para uso educacional desde que citada a fonte e em observação aos termos da licença GPL v3.0.
-
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+Coleção de demonstrações e atividades para as aulas práticas das disciplinas Geofísica I e Geofísica II do curso de [graduação em Geologia](www.ig.ufu.br/graduacao/geologia) da [Universidade Federal de Uberlândia](https://ufu.br/). O uso e a reprodução deste material é livre para uso educacional desde que citada a fonte e em observação aos termos da licença GPL v3.0 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0).
 
 [![DOI](https://zenodo.org/badge/335374856.svg)](https://zenodo.org/badge/latestdoi/335374856)
 
 
-As demonstrações listadas abaixo são executadas em linguagem Python 3, porém não há necessidade alguma de que você conheça a linguagem para obter e interpretar os resultados. Todos os notebooks apresentam textos explicativos para que você possa desenvolver a demonstração por conta própria, contudo você é livre para entrar em contato a qualquer momento em caso de dúvida.
-
-A execução dos notebooks pode ser realizada de forma remota, sem a necessidade de qualquer tipo de instalação no seu dispositivo local. Clique em um dos botões disponíveis ao lado da descrição da demonstração de seu interesse para abri-la utilizando o [Binder](https://mybinder.org/) ou o [Google Colab](https://colab.research.google.com/notebooks/intro.ipynb) e executar o notebook.
+As demonstrações listadas abaixo foram desenvolvidas como notebooks interativos em linguagem Python 3, porém não requerem conhecimentos prévios da linguagem para que se possa obter e interpretar os resultados. Para executá-los remotamente, sem a necessidade de instalação no seu dispositivo local, clique em um dos botões disponíveis ao lado do notebook de seu interesse. Todos apresentam textos explicativos para que você possa desenvolver a demonstração por conta própria, contudo você é livre para entrar em contato em caso de dúvida.
 
 Caso tenha sugestões, comentários, dúvidas ou encontre bugs nos códigos por favor deixe um comentário na aba [Issues](https://github.com/emrodalmeida/demoaulas/issues).
 
-Quer colaborar? Entre em contato através do e-mail emerson.almeida@ufu.br, sua colaboração será bem-vinda!
+Quer colaborar? Entre em contato através do e-mail emerson.almeida@ufu.br, sua contribuição será bem-vinda!
 
 
 ---
