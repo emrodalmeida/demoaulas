@@ -15,6 +15,8 @@ Quer colaborar? Entre em contato através do e-mail emerson.almeida@ufu.br, sua 
 ---
 ### *Geofísica 1*
 
+* [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252Fmodelagem.ipynb%26branch%3Dsimpeg17) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/modelagem.ipynb) Ambiguidade da modelagem em dados geofísicos
+
 * [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252Famostragem_parte1.ipynb%26branch%3Dsimpeg17) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/amostragem_parte1.ipynb) Amostragem de sinais (1ª parte)
 
 * [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252Famostragem_parte2.ipynb%26branch%3Dsimpeg17) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/amostragem_parte2.ipynb) Amostragem de sinais (2ª parte)
@@ -22,8 +24,6 @@ Quer colaborar? Entre em contato através do e-mail emerson.almeida@ufu.br, sua 
 * [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252Fserie_fourier.ipynb%26branch%3Dsimpeg17) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/serie_fourier.ipynb) Série de Fourier
 
 * [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252Ffiltragem.ipynb%26branch%3Dsimpeg17) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/filtragem.ipynb) Filtragem de sinais
-
-* [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252Fmodelagem.ipynb%26branch%3Dsimpeg17) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/emrodalmeida/demoaulas/blob/main/Geofisica1/modelagem.ipynb) Ambiguidade da modelagem em dados geofísicos
 
 * [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/emrodalmeida/daemonGeof2/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Femrodalmeida%252Fdemoaulas%26urlpath%3Dtree%252Fdemoaulas%252FGeofisica1%252Fanomalia_grav.ipynb%26branch%3Dsimpeg17) Anomalias de gravidade ao redor do globo terrestre
 
